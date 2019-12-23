@@ -1,0 +1,23 @@
+[tool.poetry]
+license = "MIT"
+read_me = "README.rst"
+name = "real_estate_data"
+version = "0.1.0"
+description = "A tool to evaluate real estate data in the local zip code 34787. The tool will evaluate property prices over a 5 year period to identify average growth rate, time on market, and desirable perks"
+authors = ["rturner8404 <rturner8404@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pandas = "^0.25.3"
+datetime = "^4.3"
+bs4 = "^0.0.1"
+requests = "^2.22"
+xlrd = "^1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+black = {version = "^18.3-alpha.0", allows-prereleases = true}
+autopep8 = "^1.4"
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

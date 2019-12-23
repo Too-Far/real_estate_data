@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: real-estate-data
+Version: 0.1.0
+Summary: A tool to evaluate real estate data in the local zip code 34787. The tool will evaluate property prices over a 5 year period to identify average growth rate, time on market, and desirable perks
+Home-page: UNKNOWN
+Author: rturner8404
+Author-email: rturner8404@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7,<4.0
